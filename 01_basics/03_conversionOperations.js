@@ -72,6 +72,16 @@ let num1, num2, num3
 
 num1 = num2 = num3 = 2+2
 
+// Postfix
+
 let gameCounter = 100
-gameCounter++;
-console.log(gameCounter);
+let y = gameCounter++;
+// console.log(gameCounter);
+// console.log(y);
+
+// Prifix
+
+let x = 25;
+let z = ++x;
+console.log(x);
+console.log(z);
